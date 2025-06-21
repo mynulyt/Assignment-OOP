@@ -14,3 +14,9 @@ class Car extends Vechicle {
     print("The car is moving at $_speed km/h");
   }
 }
+
+void main() {
+  Car myCar = Car();
+  myCar.setSpeed(100);
+  myCar.move();
+}
