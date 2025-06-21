@@ -7,3 +7,10 @@ abstract class Vechicle {
 
   void move();
 }
+
+class Car extends Vechicle {
+  @override
+  void move() {
+    print("The car is moving at $_speed km/h");
+  }
+}
